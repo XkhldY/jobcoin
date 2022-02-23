@@ -1,11 +1,11 @@
-#JobCoin Mixer
+# JobCoin Mixer
 
-###requirements:
+### requirements:
 * click
 * python
 * requests
 
-###workflow:
+### workflow:
 1. Ask the user to enter the addresses needed to be mixed.
 2. Once the user enters the addresses, the system generate deposit account for adding funds.
 3. The system then listen to the transactions on this deposit account.
@@ -13,7 +13,7 @@
     * the system transfer the funds to house account with other coins.
     * the system then dole out the funds to the given addresses.
 
-###assumptions:
+### assumptions:
 1. The user have already addresses on the server previously, 
        can transfer from them to the deposit account.
 2. The user addresses entered are new, if not the system won't stop 
