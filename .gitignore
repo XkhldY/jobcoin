@@ -1,0 +1,5 @@
+/jobcoin-mixer/.pytest_cache/
+/jobcoin-mixer/jobcoin/.pytest_cache/
+/jobcoin-mixer/tests/.pytest_cache/
+.idea/
+__pycache__/
